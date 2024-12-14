@@ -18,6 +18,10 @@
 		02ACC5682D09E35F0013C428 /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ACC5672D09E35F0013C428 /* SampleAppTests.swift */; };
 		02ACC5722D09E35F0013C428 /* SampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ACC5712D09E35F0013C428 /* SampleAppUITests.swift */; };
 		02ACC5742D09E35F0013C428 /* SampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ACC5732D09E35F0013C428 /* SampleAppUITestsLaunchTests.swift */; };
+		64EE7B292D0D49EF005C4665 /* Topscene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64EE7B282D0D49EF005C4665 /* Topscene.sks */; };
+		64EE7B2B2D0D4C99005C4665 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EE7B2A2D0D4C8B005C4665 /* player.swift */; };
+		64EE7B2D2D0D4F54005C4665 /* Myscene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EE7B2C2D0D4F4D005C4665 /* Myscene.swift */; };
+		64EE7B2F2D0D56B3005C4665 /* .xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64EE7B2E2D0D56B3005C4665 /* .xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		02ACC56D2D09E35F0013C428 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02ACC5712D09E35F0013C428 /* SampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITests.swift; sourceTree = "<group>"; };
 		02ACC5732D09E35F0013C428 /* SampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64EE7B282D0D49EF005C4665 /* Topscene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Topscene.sks; sourceTree = "<group>"; };
+		64EE7B2A2D0D4C8B005C4665 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		64EE7B2C2D0D4F4D005C4665 /* Myscene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myscene.swift; sourceTree = "<group>"; };
+		64EE7B2E2D0D56B3005C4665 /* .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +113,15 @@
 		02ACC54F2D09E35D0013C428 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				64EE7B2C2D0D4F4D005C4665 /* Myscene.swift */,
+				64EE7B2A2D0D4C8B005C4665 /* player.swift */,
 				02ACC5502D09E35D0013C428 /* AppDelegate.swift */,
 				02ACC5562D09E35D0013C428 /* Main.storyboard */,
+				64EE7B282D0D49EF005C4665 /* Topscene.sks */,
 				02ACC5522D09E35D0013C428 /* SceneDelegate.swift */,
 				02ACC5542D09E35D0013C428 /* ViewController.swift */,
 				02ACC5592D09E35F0013C428 /* Assets.xcassets */,
+				64EE7B2E2D0D56B3005C4665 /* .xcassets */,
 				02ACC55B2D09E35F0013C428 /* LaunchScreen.storyboard */,
 				02ACC55E2D09E35F0013C428 /* Info.plist */,
 			);
@@ -197,7 +209,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					02ACC54C2D09E35D0013C428 = {
 						CreatedOnToolsVersion = 15.4;
@@ -237,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EE7B292D0D49EF005C4665 /* Topscene.sks in Resources */,
 				02ACC55A2D09E35F0013C428 /* Assets.xcassets in Resources */,
+				64EE7B2F2D0D56B3005C4665 /* .xcassets in Resources */,
 				02ACC55D2D09E35F0013C428 /* Base in Resources */,
 				02ACC5582D09E35D0013C428 /* Base in Resources */,
 			);
@@ -266,9 +280,11 @@
 			files = (
 				02A87E5C2D0A64F90079E00C /* ResultViewController.swift in Sources */,
 				02ACC5552D09E35D0013C428 /* ViewController.swift in Sources */,
+				64EE7B2B2D0D4C99005C4665 /* player.swift in Sources */,
 				02ACC5512D09E35D0013C428 /* AppDelegate.swift in Sources */,
 				02ACC5532D09E35D0013C428 /* SceneDelegate.swift in Sources */,
 				02A87E622D0AB3E70079E00C /* ExplaneViewController.swift in Sources */,
+				64EE7B2D2D0D4F54005C4665 /* Myscene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +518,6 @@
 		02ACC57B2D09E35F0013C428 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -521,7 +536,6 @@
 		02ACC57C2D09E35F0013C428 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -540,7 +554,6 @@
 		02ACC57E2D09E35F0013C428 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -557,7 +570,6 @@
 		02ACC57F2D09E35F0013C428 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
