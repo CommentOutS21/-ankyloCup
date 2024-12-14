@@ -2,7 +2,7 @@
 //  ExplaneViewController.swift
 //  SampleApp
 //
-//  Created by 越智友香 on 2024/12/12.
+//  Created by 越智友香 on 2024/12/24.
 //
 import UIKit
 import CoreMotion
